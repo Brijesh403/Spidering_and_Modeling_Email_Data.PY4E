@@ -46,7 +46,7 @@ Loaded allsenders 1588 and mapping 28 dns mapping 1
 751 2006-01-24T11:13:28-08:00 vrajgopalan@ucmerced.edu
 ```
 
-## Step 3^<sup>rd</sup>
+## Step 3<sup>rd</sup>
 ### Running Gbasic.py
 
 The first, simplest data analysis is to do a "who does the most" and "which 
@@ -71,7 +71,7 @@ indiana.edu 2258
 unicon.net 2055
 ```
 
-## Step 4^<sup>th</sup> : Visualizations
+## Step 4<sup>th</sup> : Visualizations
 
 ### First Vizualization by running gword.py.
 
