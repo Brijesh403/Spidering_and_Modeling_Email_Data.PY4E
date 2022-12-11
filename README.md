@@ -100,4 +100,3 @@ Top 10 Oranizations
 Output written to gline.js
 ```
 
-##Its output is written to *gline.js* which is *visualized using gline.htm*.
