@@ -6,7 +6,7 @@
 ### Spidering the link and creating a database to store the mining.
 
 *We will be spidering this link:* 
-- (http://mbox.dr-chuck.net/)
+- *http://mbox.dr-chuck.net/*
 
 By run of gmane.py getting the last five messages of the
 sakai developer list:
@@ -75,7 +75,7 @@ unicon.net 2055
 
 ### First Vizualization by running gword.py.
 
-![image](https://user-images.githubusercontent.com/100509604/206905349-c9b3dc8b-0185-4bab-ba27-86d23441f235.png)
+![image](https://user-images.githubusercontent.com/100509604/206905859-57790ff2-a116-41c9-99ba-047adc564f59.png)
 
 
 There is a simple vizualization of the word frequence in the subject lines
