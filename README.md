@@ -2,15 +2,16 @@
 *A project to download, process, and visualize an email corpus from the Sakai open source project from 2004-2011
 *Analyzing an EMAIL Archive from gmane and vizualizing the data
 
-##Step 1^st: 
-###Spidering the link and creating a database to store the mining.
+## Step 1 <sup>st</sup>: 
+### Spidering the link and creating a database to store the mining.
 
 *We will be spidering this link:* 
 - (http://mbox.dr-chuck.net/)
 
 By run of gmane.py getting the last five messages of the
 sakai developer list:
-'''
+
+```
 How many messages:10
 http://mbox.dr-chuck.net/sakai.devel/1/2 2662
     ggolden@umich.edu 2005-12-08T23:34:30-06:00 call for participation: developers documentation
@@ -23,7 +24,7 @@ http://mbox.dr-chuck.net/sakai.devel/4/5 11721
 http://mbox.dr-chuck.net/sakai.devel/5/6 9443
     john@caret.cam.ac.uk 2005-12-09T13:32:29+00:00 re: lms/vle rants/comments
 Does not start with From 
-'''
+```
 
 *Note:The program scans content.sqlite from 1 up to the first message number not
 already spidered and starts spidering at that message.  It continues spidering
