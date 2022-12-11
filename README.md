@@ -100,3 +100,4 @@ Top 10 Oranizations
 Output written to gline.js
 ```
 
+> Note: The above shown work is project of Python for everybody: Capstone: Retrieving, Processing, and Visualizing Data with Python on Coursera
