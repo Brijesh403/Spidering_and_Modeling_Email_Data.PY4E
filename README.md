@@ -2,7 +2,7 @@
 *A project to download, process, and visualize an email corpus from the Sakai open source project from 2004-2011
 *Analyzing an EMAIL Archive from gmane and vizualizing the data
 
-## Step 1 <sup>st</sup>: 
+## Step 1 <sup>st</sup>
 ### Spidering the link and creating a database to store the mining.
 
 *We will be spidering this link:* 
@@ -31,11 +31,10 @@ already spidered and starts spidering at that message.  It continues spidering
 until it has spidered the desired number of messages or it reaches a page
 that does not appear to be a properly formatted message.*
 
-##Step 2^nd:
-###
-The second process is 
-*running the program *gmodel.py.  
-    gmodel.py* reads the rough/raw data from *content.sqlite* and produces a cleaned-up and well-modeled version of the data in the file index.sqlite The file  index.sqlite will be much smaller (often 10X smaller) than content.sqlite because it also compresses the header and body text.
+## Step 2<sup>nd</sup>
+### The second process is *running the program *gmodel.py.  
+
+*gmodel.py* reads the rough/raw data from *content.sqlite* and produces a cleaned-up and well-modeled version of the data in the file index.sqlite The file  index.sqlite will be much smaller (often 10X smaller) than content.sqlite because it also compresses the header and body text.
 
 
 *Running gmodel.py works as follows:*
@@ -47,7 +46,7 @@ Loaded allsenders 1588 and mapping 28 dns mapping 1
 751 2006-01-24T11:13:28-08:00 vrajgopalan@ucmerced.edu
 ```
 
-##Step 3^rd:
+## Step 3^<sup>rd</sup>:
 ### Running Gbasic.py
 
 The first, simplest data analysis is to do a "who does the most" and "which 
@@ -72,7 +71,8 @@ indiana.edu 2258
 unicon.net 2055
 ```
 
-## Step 4^th
+## Step 4^<sup>th</sup> : Visualizations
+
 ### First Vizualization by running gword.py.
 
 There is a simple vizualization of the word frequence in the subject lines
@@ -86,6 +86,9 @@ This produces the file gword.js which you can visualize using the file
 *gword.htm.*
 ```
 ### Second visualization is in *gline.py.*
+
+![image](https://user-images.githubusercontent.com/100509604/206905032-865dfab8-7ec2-4deb-8ece-ebc2c3d45dfc.png)
+
 
 ```
 Loaded messages= 51330 subjects= 25033 senders= 1584
