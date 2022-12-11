@@ -1,7 +1,7 @@
 # Spidering_and_Modeling_Email_Data.PY4E
  * A project to download, process, and visualize an email corpus from the Sakai open source project from 2004-2011
  * Analyzing an EMAIL Archive from gmane and vizualizing the data
-
+---
 ## Step 1 <sup>st</sup>
 ### Spidering the link and creating a database to store the mining.
 
