@@ -1,6 +1,6 @@
 # Spidering_and_Modeling_Email_Data.PY4E
-*A project to download, process, and visualize an email corpus from the Sakai open source project from 2004-2011
-*Analyzing an EMAIL Archive from gmane and vizualizing the data
+ * A project to download, process, and visualize an email corpus from the Sakai open source project from 2004-2011
+ * Analyzing an EMAIL Archive from gmane and vizualizing the data
 
 ## Step 1 <sup>st</sup>
 ### Spidering the link and creating a database to store the mining.
@@ -46,7 +46,7 @@ Loaded allsenders 1588 and mapping 28 dns mapping 1
 751 2006-01-24T11:13:28-08:00 vrajgopalan@ucmerced.edu
 ```
 
-## Step 3^<sup>rd</sup>:
+## Step 3^<sup>rd</sup>
 ### Running Gbasic.py
 
 The first, simplest data analysis is to do a "who does the most" and "which 
@@ -74,6 +74,9 @@ unicon.net 2055
 ## Step 4^<sup>th</sup> : Visualizations
 
 ### First Vizualization by running gword.py.
+
+![image](https://user-images.githubusercontent.com/100509604/206905349-c9b3dc8b-0185-4bab-ba27-86d23441f235.png)
+
 
 There is a simple vizualization of the word frequence in the subject lines
 in the file gword.py:
